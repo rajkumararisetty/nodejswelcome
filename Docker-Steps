@@ -1,0 +1,2 @@
+sudo docker build -t welcome-demo .
+sudo docker run --name welcome-demo-test -p 50002:50002 -d welcome-demo
